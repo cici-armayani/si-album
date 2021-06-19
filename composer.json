@@ -1,0 +1,19 @@
+{
+    "name": "asus/uts-web",
+    "description": "Pemrograman Berbasis Web Lanjutan",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Cici",
+            "email": "ciciarmayani@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4" :{
+            "App\\" : "app/"
+        }
+    }
+}
